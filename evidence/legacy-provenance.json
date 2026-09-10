@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "file": "original/27top.v",
+      "source": "legacy/notebook/cpp/verilog/W6/Srcs/27top.v",
+      "sha256": "b95907e66205bdb9a9977ce7f4705ed4504a6f641c037f1d0643775a25c5ddb4"
+    },
+    {
+      "file": "original/27tb.v",
+      "source": "legacy/notebook/cpp/verilog/W6/Srcs/27tb.v",
+      "sha256": "530d71f2e26fea9e2ed80025e720b6dd94eee1f7e876f29e1607e3049ee89b52"
+    },
+    {
+      "file": "original/27const.xdc",
+      "source": "legacy/notebook/cpp/verilog/W6/Srcs/27const.xdc",
+      "sha256": "142baf7028be07740a2d7d11d3fbe557c9ffdac6c73557c0d4e168a413db759b"
+    }
+  ],
+  "differences": "원본과 현재 회로 모두 입력을 MSB로 넣고 LSB로 이동한다. 현재 회로는 초기 상태를 정하는 reset, 한 단계 실행 enable, 자동 검사와 종료 조건을 추가했다. 원본 TB는 종료 조건 없이 클록을 계속 생성한다.",
+  "execution_files": "src/, sim/, constraints/ are the corrected single-clock lesson; original/ is preserved for comparison"
+}
